@@ -31,6 +31,7 @@
         <span class="cta__inline">Bitbucket</span> and
         <span class="cta__inline">Confluence</span>.
       </p>
+      <button class="btn" @click="goToResume">See resume</button>
     </div>
     <img
       src="../assets/profileImg.jpeg"
@@ -41,6 +42,11 @@
 
 <script>
 export default {
-  name: "ProjectsItem",
+  name: "AboutItem",
+  methods: {
+    goToResume(){
+        this.$router.push('/resume')
+    }
+  }
 };
 </script>

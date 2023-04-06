@@ -1,7 +1,7 @@
 <template>
  <header class="sidemenu"
  :class="{'height': navOpen}">
-    <button class="sidemenu__btn" v-on:click="navOpen=!navOpen" v-bind:class="{active:navOpen}">
+    <button class="sidemenu__btn" v-on:click="navOpen=!navOpen" aria-label="Menu" v-bind:class="{active:navOpen}">
 				<span class="top"></span>
 				<span class="mid"></span>
 				<span class="bottom"></span>
@@ -10,11 +10,10 @@
       <nav v-show="navOpen">
         <div class="sidemenu__wrapper">
           <ul class="sidemenu__list">
-            <li class="sidemenu__item"><a href="">Home</a></li>
-            <li class="sidemenu__item"><a href="">About</a></li>
-            <li class="sidemenu__item"><a href="">Blog</a></li>
-            <li class="sidemenu__item"><a href="">Work</a></li>
-            <li class="sidemenu__item"><a href="">Link</a></li>
+            <li class="sidemenu__item"><router-link to="/">Home</router-link></li>
+            <li class="sidemenu__item"><router-link to="/contact">Contact</router-link></li>
+            <li class="sidemenu__item"><router-link  to="/projects">Projects</router-link></li>
+            <li class="sidemenu__item"><router-link to="/resume">Resume</router-link></li>
           </ul>
         </div>
       </nav>
