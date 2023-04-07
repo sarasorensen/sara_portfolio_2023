@@ -1,11 +1,14 @@
 <template>
- <header class="sidemenu"
- :class="{'height': navOpen}">
+ <header class="sidemenu">
+
+  <h2 class="logo" @click="home">Sara</h2>
     <button class="sidemenu__btn" v-on:click="navOpen=!navOpen" aria-label="Menu" v-bind:class="{active:navOpen}">
 				<span class="top"></span>
 				<span class="mid"></span>
 				<span class="bottom"></span>
 			</button>
+
+
     <transition name="translateX">
       <nav v-show="navOpen">
         <div class="sidemenu__wrapper">
@@ -28,6 +31,18 @@
         return{
             navOpen: false
         }
+    },
+    methods: {
+      home(){
+        this.$router.push("/")
+      }
+    },
+    watch:{
+      "$route"(newVal){
+       if(newVal){
+        this.navOpen = false;
+       }
+      }
     }
   };
   </script>
