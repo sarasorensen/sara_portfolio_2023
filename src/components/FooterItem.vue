@@ -4,12 +4,6 @@
         <div class="heading heading__white">
         <h2>Sara Sørensen</h2>
       </div>
-
-      <h3>Any questions?</h3>
-      <p>
-        If you have any questions or want additional information about me,
-        please, don't hesitate to contact!
-      </p>
       <div class="btn-row btn-row__white">
         <a href="https://www.linkedin.com/in/sara-s%C3%B8rensen-7b0711179/"
           ><i class="fa fa-linkedin-square" style="font-size: 1.5em" area-label="linkedin icon"></i

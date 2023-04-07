@@ -3,10 +3,11 @@
     <section class="sidebar">
       <div class="sidebar__mobile_only">
         <div class="img-wrap">
-        <img
-          src="../assets/profileImg.jpeg"
-          alt="portrait of a woman with brown hair"
-        /></div>
+          <img
+            src="../assets/profileImg.jpeg"
+            alt="portrait of a woman with brown hair"
+          />
+        </div>
         <div>
           <p><i class="fa fa-briefcase"></i>Front End Developer</p>
           <p><i class="fa fa-home"></i>Elviria, Malaga</p>
@@ -53,12 +54,6 @@
           <p>100%</p>
         </div>
       </div>
-      <p>UX/UI</p>
-      <div class="progress">
-        <div class="progress__inner" style="width: 100%">
-          <p>100%</p>
-        </div>
-      </div>
       <p>Adobe XD</p>
       <div class="progress">
         <div class="progress__inner" style="width: 90%">
@@ -90,6 +85,17 @@
         <div class="progress__inner" style="width: 10%">
           <p>10%</p>
         </div>
+      </div>
+      <div>
+        <hr />
+        <b><i class="fa fa-key"></i>Keywords</b>
+        <p>
+          JavaScript | Vue.js | Vuex | Vue Router | React | Jest | NPM | CSS |
+          SCSS | BootStrap | Visual Studio Code | BitBucket | Git | GitHub |
+          Jira | FileZilla | Netlify | Confluence | Teams | Adobe XD |
+          Illustrator | Figma | Trello | Insomnia | Postman | Google Map |
+          ChartJS | Cloudinary | API | REST | JSON
+        </p>
       </div>
     </section>
     <div>
@@ -178,6 +184,74 @@
         <ul>
           <li>
             Higher Education Entrance Qualifications with Media & Communication
+          </li>
+        </ul>
+      </section>
+      <section class="container">
+        <h2><i class="fa fa-file-code-o"></i> Certfications</h2>
+        <h3>JavaScript Algorithms & Data Structures / Udemy</h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2022
+        </h4>
+        <ul>
+          <li>
+            <a
+              href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-39317d18-62c8-4aae-af7a-339d0b0293e0.pdf"
+              target="_blank"
+              >See certificate</a
+            >
+          </li>
+        </ul>
+        <hr />
+        <h3>The complete Git Guide / Udemy</h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2022
+        </h4>
+        <ul>
+          <li>
+            <a
+              href="https://www.udemy.com/certificate/UC-8eaf3444-c49c-4855-a00f-ebeff5584ae3/"
+              target="_blank"
+              >See certificate</a
+            >
+          </li>
+        </ul>
+        <hr />
+        <h3>Vue – The Complete Guide / Udemy</h3>
+        <h4><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2022</h4>
+        <ul>
+          <li>
+            <a
+              href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-6761726b-ec6b-446f-9c7c-f8c05d743fa6.pdf"
+              target="_blank"
+              >See certificate</a
+            >
+          </li>
+        </ul>
+        <hr />
+        <h3>JavaScript Algorithms and Data Structures / FreeCodeCamp</h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2020
+        </h4>
+        <ul>
+          <li>
+            <a
+              href="https://www.freecodecamp.org/certification/sarasorensen/javascript-algorithms-and-data-structures"
+              target="_blank"
+              >See certificate</a
+            >
+          </li>
+        </ul>
+        <hr />
+        <h3>Responsive Web Design / FreeCodeCamp</h3>
+        <h4><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2020</h4>
+        <ul>
+          <li>
+            <a
+              href="https://www.freecodecamp.org/certification/sarasorensen/responsive-web-design"
+              target="_blank"
+              >See certificate</a
+            >
           </li>
         </ul>
       </section>
