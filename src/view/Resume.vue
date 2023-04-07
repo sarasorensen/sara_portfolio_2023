@@ -1,14 +1,20 @@
 <template>
   <div class="resume">
     <section class="sidebar">
-      <img
-        src="../assets/profileImg.jpeg"
-        alt="portrait of a woman with brown hair"
-      />
-      <p><i class="fa fa-briefcase"></i>Front End Developer</p>
-      <p><i class="fa fa-home"></i>Elviria, Malaga</p>
-      <p><i class="fa fa-envelope"></i>sarasorensen97@hotmail.com</p>
-      <p><i class="fa fa-phone"></i>+4747707105</p>
+      <div class="sidebar__mobile_only">
+        <div class="img-wrap">
+        <img
+          src="../assets/profileImg.jpeg"
+          alt="portrait of a woman with brown hair"
+        /></div>
+        <div>
+          <p><i class="fa fa-briefcase"></i>Front End Developer</p>
+          <p><i class="fa fa-home"></i>Elviria, Malaga</p>
+          <p><i class="fa fa-envelope"></i>sarasorensen97@hotmail.com</p>
+          <p><i class="fa fa-phone"></i>+4747707105</p>
+        </div>
+      </div>
+
       <hr />
       <b><i class="fa fa-asterisk"></i>Skills</b>
       <p>Vue</p>
@@ -89,7 +95,7 @@
     <div>
       <section class="container">
         <h2><i class="fa fa-suitcase"></i> Work experience</h2>
-        <h3>Front End Developer / w3schools.com</h3>
+        <h3>Front End Developer / Soolo</h3>
         <h4>
           <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2021 - Current
         </h4>
@@ -120,10 +126,60 @@
             employees.
           </li>
         </ul>
+        <hr />
+        <h3>Retail / Lindex</h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2020 - July
+          2021
+        </h4>
+        <ul>
+          <b>Key qualifications & responsibilities</b>
+          <li>
+            - Responsible for registry, financials, customer service,
+            organization & re-stocking merchandise.
+          </li>
+          <li>- Visual merchandiser in own department.</li>
+        </ul>
+        <hr />
+        <h3>Retail / Gina Tricot</h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2013 - July
+          2019
+        </h4>
+        <ul>
+          <b>Key qualifications & responsibilities</b>
+          <li>
+            - Responsible for registry, financials, customer service,
+            organization & re-stocking merchandise.
+          </li>
+          <li>- Visual merchandiser in own department.</li>
+        </ul>
       </section>
 
       <section class="container">
         <h2><i class="fa fa-certificate"></i> Education</h2>
+
+        <h3>
+          Front-end Development / Noroff School Of Technology and digital media
+        </h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>March 2019 - March
+          2021
+        </h4>
+        <ul>
+          <li>Higher professional Degree</li>
+        </ul>
+        <hr />
+        <h3>Media & Communication / Vågen high school</h3>
+        <h4>
+          <i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2013 - July
+          2016
+        </h4>
+        <ul>
+          <li>
+            Higher Education Entrance Qualifications with Media & Communication
+          </li>
+        </ul>
       </section>
     </div>
   </div>

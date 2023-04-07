@@ -14,7 +14,7 @@
     <form id="contact-form" ref="form">
       <div class="row">
         <div class="col-25">
-          <label for="fname">First Name*</label>
+          <label for="fname">Name*</label>
         </div>
         <div class="col-75">
           <input
