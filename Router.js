@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router"
-import PresentationItem from '../resume/src/components/PresentationItem.vue';
-import Contact from '../resume/src/view/Contact.vue';
-import Resume from '../resume/src/view/Resume.vue';
-import Projects from '../resume/src/view/Projects.vue';
+import PresentationItem from './src/components/PresentationItem.vue';
+import Contact from './src/view/Contact.vue';
+import Resume from './src/view/Resume.vue';
+import Projects from './src/view/Projects.vue';
 const  routes = [
     {
         path: '/',
