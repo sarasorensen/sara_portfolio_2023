@@ -24,7 +24,7 @@
         <ul>
             <li><router-link to="/">Home</router-link></li>
             <li><router-link to="/contact">Contact</router-link></li>
-            <li><router-link  to="/projects">Projects</router-link></li>
+            <li><router-link  to="/projects">Portfolio</router-link></li>
             <li><router-link to="/resume">Resume</router-link></li>
         </ul>
       </nav>

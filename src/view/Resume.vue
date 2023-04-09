@@ -2,7 +2,7 @@
   <div class="resume">
     <section class="sidebar">
       <div class="sidebar__mobile_only">
-        <div class="img-wrap">
+        <div>
           <img
             src="../assets/profileImg.jpeg"
             alt="portrait of a woman with brown hair"
@@ -18,6 +18,7 @@
 
       <hr />
       <b><i class="fa fa-asterisk"></i>Skills</b>
+      <div class="progress-wrap">
       <p>Vue</p>
       <div class="progress">
         <div class="progress__inner" style="width: 80%">
@@ -66,8 +67,10 @@
           <p>65%</p>
         </div>
       </div>
+    </div>
       <hr />
       <b><i class="fa fa-globe"></i>Languages</b>
+      <div class="progress-wrap">
       <p>Norwegian</p>
       <div class="progress">
         <div class="progress__inner" style="width: 100%">
@@ -86,6 +89,7 @@
           <p>10%</p>
         </div>
       </div>
+    </div>
       <div>
         <hr />
         <b><i class="fa fa-key"></i>Keywords</b>
