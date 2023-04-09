@@ -12,7 +12,7 @@
           alt="sortable table displaying devices"
         />
         </div>
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>Devices</h2>
         </div>
       </section>
@@ -24,7 +24,7 @@
           alt="Google maps with markers"
         />
         </div>
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>Maps</h2>
         </div>
       </section>
@@ -36,7 +36,7 @@
           alt="Image of form input for device onboarding"
         />
         </div>
-        <div class="heading">
+        <div class="heading heading__bckg" >
           <h2>Onboarding</h2>
         </div>
       </section>
@@ -48,7 +48,7 @@
           alt="Chart displaying calendar and volume"
         />
         </div>
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>Chart JS</h2>
         </div>
       </section>
@@ -61,7 +61,7 @@
         />
         </div>
 
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>Table</h2>
         </div>
       </section>
@@ -75,7 +75,7 @@
         />
         </div>
 
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>JSON editor</h2>
         </div>
       </section>
@@ -88,7 +88,7 @@
         />
         </div>
 
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>Graphics</h2>
         </div>
       </section>
@@ -101,7 +101,7 @@
           alt="Google maps with markers"
         />
         </div>
-        <div class="heading">
+        <div class="heading heading__bckg">
           <h2>Hotel</h2>
         </div>
       </section>

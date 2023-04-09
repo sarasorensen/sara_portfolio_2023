@@ -33,7 +33,8 @@ a {
   justify-content: space-evenly;
   margin-top: $space;
   flex-wrap: wrap;
-  @include breakpoint(medium) {
+
+  @include breakpoint(small) {
     flex-direction: column;
     justify-content: center;
   }

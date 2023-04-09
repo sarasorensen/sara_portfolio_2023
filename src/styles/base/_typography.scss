@@ -51,6 +51,16 @@ h3 {
   &__orange {
     border-bottom: 5px solid $orange;
   }
+  &__bckg {
+    background-color: white;
+    width: 105%;
+    padding-left: 1em;
+    margin-left: -1em !important;
+    border-bottom: 5px solid transparent;
+  }
+  &__modal {
+    margin-top: 2.5em;
+  }
 }
 .cta {
   &__inline {

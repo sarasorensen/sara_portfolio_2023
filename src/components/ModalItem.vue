@@ -2,7 +2,7 @@
   <div id="myModal" class="modal" v-if="open" @click="close">
     <div class="modal-content" @click.stop>
       <span class="close" @click="close">&times;</span>
-      <div class="heading">
+      <div class="heading heading__modal">
         <h2>{{ title }}</h2>
       </div>
 

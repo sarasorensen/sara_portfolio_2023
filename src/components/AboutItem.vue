@@ -8,6 +8,10 @@
         I have a higher professional degree in Front-end Development, as well as
         entrance qualifications with Media & Communication.
       </p>
+      <img
+      src="../assets/profileImg.jpeg"
+      alt="portrait of a woman with brown hair"
+    />
       <p>
         From my job experience and education, I have knowledge of
         <span class="cta__inline">JavaScript</span>,
@@ -32,11 +36,10 @@
         <span class="cta__inline">Confluence</span>.
       </p>
       <button class="btn" @click="goToResume">See resume</button>
+
+ 
     </div>
-    <img
-      src="../assets/profileImg.jpeg"
-      alt="portrait of a woman with brown hair"
-    />
+
   </section>
 </template>
 
