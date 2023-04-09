@@ -1,0 +1,69 @@
+.btn-row {
+  width: 100%;
+  & i {
+    color: $orange;
+  }
+  &--transparent {
+    color: black !important;
+  }
+  &__white {
+    & i {
+      color: white;
+    }
+  }
+}
+.btn {
+  @include button;
+  @include transition;
+  background-color: $orange;
+  color: #ffffff;
+  border: 1px solid $orange;
+  text-transform: uppercase;
+  width: 35%;
+  padding: 0.5em;
+  letter-spacing: 0.1em;
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    &:hover {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
+.btn-second {
+  @include button;
+  @include transition;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+  background-color: black;
+  color: #ffffff;
+  border: 1px solid black;
+  text-transform: uppercase;
+  width: 35%;
+  padding: 0.5em;
+  letter-spacing: 0.1em;
+}
+
+a {
+  box-shadow: inset 0 0 0 0 white;
+  padding: 0 0.25rem;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+a {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+a {
+  i {
+    color: $teal;
+    &:hover {
+      @include hover;
+      @include transition;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: 0 auto;
+  & img {
+    width: 20px;
+  }
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: $space;
+  flex-wrap: wrap;
+  @include breakpoint(medium) {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

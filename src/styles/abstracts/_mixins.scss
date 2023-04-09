@@ -1,0 +1,51 @@
+@mixin breakpoint($point) {
+  @if $point == small {
+    @media (max-width: 500px) {
+      @content;
+    }
+  } @else if $point == medium {
+    @media (max-width: 775px) {
+      @content;
+    }
+  } @else if $point == large {
+    @media (max-width: 1200px) {
+      @content;
+    }
+  } @else if $point == wide {
+    @media (max-width: 1400px) {
+      @content;
+    }
+  } @else {
+    @warn 'Not a valid breakpoint name.';
+  }
+}
+@mixin hover {
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
+
+@mixin transition {
+  transition: 0.3s ease-in-out 0s;
+  -moz-transition: 0.3s ease-in-out 0s;
+  -webkit-transition: 0.3s ease-in-out 0s;
+}
+@mixin button {
+  background-color: $grey;
+  color: white;
+  border-radius: 0;
+  padding: 0.5em;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  &:hover {
+    @include hover;
+    color: white;
+    text-decoration: none;
+  }
+}
+@mixin link-hover {
+  box-shadow: inset 170px 0 0 0 $orange;
+  color: white;
+}

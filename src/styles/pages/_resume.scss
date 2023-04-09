@@ -1,0 +1,96 @@
+.resume {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: $space;
+  @include breakpoint(large) {
+    flex-direction: column;
+  }
+}
+.sidebar {
+  width: 30%;
+  padding: 1em;
+  box-shadow: $shadow;
+  margin: $space;
+  height: fit-content;
+  @include breakpoint(large) {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: $space;
+  }
+
+  &__mobile_only {
+    @include breakpoint(large) {
+      & img {
+        width: 95%;
+        margin-right: 1em;
+      }
+      display: flex;
+      flex-direction: row;
+    }
+  }
+  & i {
+    color: $teal;
+    margin-right: 0.5em;
+  }
+  & b {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: $grey;
+  }
+}
+.container {
+  width: 90%;
+  padding: 1em;
+  box-shadow: $shadow;
+  margin: $space;
+  @include breakpoint(large) {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: $space;
+  }
+  & h2 {
+    color: $teal;
+  }
+  & h3 {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: $grey;
+    text-transform: initial;
+  }
+  & h4 {
+    margin-top: -0.1em;
+    color: $teal;
+  }
+  & ul li {
+    margin-top: 0.5em;
+  }
+  & a {
+    text-transform: initial;
+    color: $orange;
+  }
+}
+hr {
+  opacity: 0.3;
+}
+.progress {
+  color: #000;
+  background-color: #d4d4d4;
+  border-radius: 5px;
+  &__inner {
+    color: #fff;
+    background-color: #009688;
+    border-radius: 5px;
+    & p {
+      text-align: center;
+    }
+  }
+}
+.progress-wrap {
+  @include breakpoint(large) {
+    width: 50%;
+  }
+  @include breakpoint(medium) {
+    width: 100%;
+  }
+}
